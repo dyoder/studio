@@ -1,0 +1,14 @@
+smoothing: true
+css: |
+  rect { fill: #{bg:fff}; }
+  text { 
+    font-family: ${font-family};
+    font-size: ${font-size};
+    text-antialiasing: true; 
+    fill: #{c:000};
+    letter-spacing: ${l:0px};
+  }
+  
+content: |
+  <rect height='${height}' width='${width}'/>
+  <text x='5' y='${baseline}'>${s}</text>

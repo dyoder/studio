@@ -1,0 +1,5 @@
+smoothing: false
+css: |
+
+content: |
+  <rect rx='${r}' ry='${r}' height='${height}' width='${width}' fill='#{c}'/>

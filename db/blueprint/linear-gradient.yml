@@ -1,0 +1,11 @@
+smoothing: false
+css: |
+
+content: |
+  <defs>
+    <linearGradient id='gradient' x1='${x1:0}%' y1='${y1:0}%' x2='${x2:0}%' y2='${y2:0}%'>
+      <stop offset='0%' stop-color='#{fr}' stop-opacity='1'/>
+      <stop offset='100%' stop-color='#{t}' stop-opacity='1'/>
+    </linearGradient>
+  </defs>
+  <rect rx='${r:0}' ry='${r:0}' height='${height}' width='${width}' fill='url(#gradient)'/>
